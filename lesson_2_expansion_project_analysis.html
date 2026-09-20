@@ -1162,11 +1162,14 @@
         title: "Depreciation Rates & Tax Shields",
         icon: "calculator",
         bg: "bg-sky-500/10 text-sky-400",
-        body: `<p><strong>Key Concept:</strong> Depreciation is a non-cash expense that generates tangible cash flow savings through tax reduction.</p>
-               <p class="mt-2"><strong>Formula:</strong> Annual Tax Shield = Depreciation Expense &times; Marginal Tax Rate</p>
-               <p class="mt-2"><strong>Capital Budgeting Rule:</strong> Always use tax-allowable depreciation schedules (e.g., MACRS) rather than financial reporting depreciation when building cash flow forecasts.</p>`
+        body: `<p><strong>Straight-Line Depreciation</strong> Spreads the depreciable cost of an asset equally across each year of its useful life.</p>
+               <p class="mt-2"><strong>Formula:</strong> Annual Depreciation Expense = (Cost - Salvage Value) / Useful Life</p>
+               <p class="mt-2"><strong>Diminishing Value Depreciation</strong> Applies a fixed percentage rate to the remaining book value (undepreciated cost) of the asset at the start of each year. As the book value decreases over time, the annual depreciation expense drops.</p>
+               <p class="mt-2"><strong>Formula:</strong> Annual Depreciation Expense = Book Value at Start of Year &times; Depreciation Rate</p>
+               <p class="mt-2"><strong>Units of Production Depreciation</strong> Ties depreciation directly to asset usage or output (e.g., hours operated, miles driven, or units produced) rather than the passage of time.</p>
+               <p class="mt-2"><strong>Formula:</strong> Annual Depreciation Expense = (Units Produced in Year) &times; (Cost per Unit)</p>`
       },
-      cannibalization: {
+        cannibalization: {
         title: "Cannibalization (Erosion Side Effects)",
         icon: "trending-down",
         bg: "bg-teal-500/10 text-teal-400",
