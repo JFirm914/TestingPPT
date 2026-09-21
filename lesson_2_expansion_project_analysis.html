@@ -375,7 +375,7 @@
           <!-- Factor Cards Interactive Grid -->
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             
-            <!-- Factor 1 -->
+           <!-- Factor 1 -->
             <div onclick="openFactorModal('depreciation')" class="glass-panel p-5 rounded-xl border border-slate-700 hover:border-sky-500/50 hover:bg-slate-800/80 cursor-pointer transition transform hover:-translate-y-1 group">
               <div class="flex items-center justify-between mb-3">
                 <span class="text-xs font-mono text-sky-400 bg-sky-500/10 px-2 py-0.5 rounded border border-sky-500/20">Factor 01</span>
@@ -386,7 +386,7 @@
                 Non-cash expense that impacts income tax shields. Accelerated methods increase early cash inflows.
               </p>
               <div class="mt-4 flex items-center text-xs text-sky-400 font-semibold space-x-1">
-                <span>Explore Tax Shields</span>
+                <span>3 Depreciation Methods in Capital Budgeting</span>
                 <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
               </div>
             </div>
@@ -402,7 +402,7 @@
                 Erosion of existing product line revenues due to the new expansion project. Must be deducted as a cash outflow.
               </p>
               <div class="mt-4 flex items-center text-xs text-teal-400 font-semibold space-x-1">
-                <span>Analyze Erosion</span>
+                <span>Cannibalization Definition</span>
                 <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
               </div>
             </div>
@@ -415,10 +415,10 @@
               </div>
               <h3 class="text-base font-bold text-white group-hover:text-amber-400 transition-colors">Opportunity Costs</h3>
               <p class="text-xs text-slate-400 mt-2 line-clamp-2">
-                Foregone net cash inflows from alternative asset uses (e.g., land or equipment that could be sold or leased).
+                Foregone net cash inflows from alternative asset uses.
               </p>
               <div class="mt-4 flex items-center text-xs text-amber-400 font-semibold space-x-1">
-                <span>Calculate Alternative Value</span>
+                <span>Opportunity Costs Definition</span>
                 <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
               </div>
             </div>
@@ -431,10 +431,10 @@
               </div>
               <h3 class="text-base font-bold text-white group-hover:text-rose-400 transition-colors">Sunk Costs</h3>
               <p class="text-xs text-slate-400 mt-2 line-clamp-2">
-                Outlays already incurred that cannot be recovered regardless of project acceptance (e.g.,feasibility studies).
+                Outlays already incurred that cannot be recovered regardless of project acceptance.
               </p>
               <div class="mt-4 flex items-center text-xs text-rose-400 font-semibold space-x-1">
-                <span>View Exclusion Rule</span>
+                <span>Sunk Costs Definition</span>
                 <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
               </div>
             </div>
@@ -1170,25 +1170,23 @@
                <p class="mt-2"><strong>Formula:</strong> Annual Depreciation Expense = (Units Produced in Year) &times; (Cost per Unit)</p>`
       },
         cannibalization: {
-        title: "Cannibalization (Erosion Side Effects)",
+       title: "Cannibalization Definition",
         icon: "trending-down",
         bg: "bg-teal-500/10 text-teal-400",
-        body: `<p><strong>Key Concept:</strong> When an expansion project causes sales reductions in existing product lines, this lost contribution margin is a true cash outflow of the new project.</p>
+        body: `<p><strong>Cannibalization</strong> refers to a phenomenon that happens when there’s a decreased demand for a company’s original product in favor of its new product. When cannibalization occurs, the business experiences losses not just in sales volume but also in revenue and market share. Due to cannibalization, some companies opt not to release their new products because they don’t want the market share of their existing products to decline.</p>
                <p class="mt-2"><strong>Exception Note:</strong> If competitors would have stolen those sales anyway regardless of your project, the lost sales are NOT considered cannibalization.</p>`
       },
       opportunity: {
-        title: "Opportunity Costs",
+        title: "Opportunity Costs Definition",
         icon: "arrow-up-right",
         bg: "bg-amber-500/10 text-amber-400",
-        body: `<p><strong>Key Concept:</strong> Using existing assets (land, machinery, buildings) for a new expansion creates an opportunity cost equal to the cash those assets could generate if sold or leased.</p>
-               <p class="mt-2"><strong>Rule:</strong> Always charge the net after-tax market value of the asset as an initial cash outflow at Year 0.</p>`
+        body: `<p><strong>Opportunity Costs</strong> is the potential benefit you miss out on when you choose one option over another. Every business decision involves a trade-off, and the opportunity cost is the value of the next best alternative you didn't choose.</p>`
       },
       sunk: {
-        title: "Sunk Costs Exclusion Rule",
+        title: "Sunk Costs Exclusion Definition",
         icon: "x-circle",
         bg: "bg-rose-500/10 text-rose-400",
-        body: `<p><strong>Strict Accounting Rule:</strong> Sunk costs represent past unrecoverable outlays. They DO NOT change based on project approval or rejection.</p>
-               <p class="mt-2"><strong>Examples:</strong> Market research surveys, historical engineering tests, past R&D spent prior to decision date.</p>`
+        body: `<p><strong>Sunk Costs</strong> is a cost that has already occurred and cannot be recovered by any means. Sunk costs are independent of any event and should not be considered when making investment or project decisions. Only relevant costs (costs that relate to a specific decision and will change depending on that decision) should be considered when making such decisions.</p>`
       },
       inputs: {
         title: "Input Changes & Sensitivity Analysis",
@@ -1198,7 +1196,6 @@
                <p class="mt-2"><strong>Best Practice:</strong> Perform Sensitivity Analysis and Scenario Analysis (Best Case, Base Case, Worst Case) before final approval.</p>`
       }
     };
-
     /* ==========================================================================
        INIT & NAVIGATION LOGIC
        ========================================================================== */
